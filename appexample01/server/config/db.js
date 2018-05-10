@@ -8,7 +8,7 @@ var connection = function(nameSchema){
 		freezeTableName:true,
         schema: nameSchema
 	},
-    pool: {maxConnections:5, maxIdleTime:30},
+    pool: {maxConnections:10, maxIdleTime:30},
     language: 'es'
     });
 }
